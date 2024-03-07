@@ -103,3 +103,154 @@ body {
   line-height: 27px;
   margin: 0;
 }
+
+/*Map*/
+.map-header__option {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  margin: 0;
+}
+
+.map-header__option p {
+  margin: 0;
+}
+
+.map-header__option select {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #444444;
+}
+
+.map-header__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.map-header__item {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #444444;
+}
+
+a {
+  text-decoration: none;
+}
+
+.map-header__item:hover {
+  color: #A30C33;
+}
+
+/*Mission*/
+
+.mission {
+  background-color: #A30C33;
+}
+
+.mission h2 {
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 56px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.mission p {
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+/*Directions*/
+
+.directions h2 {
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 56px;
+  text-align: center;
+  margin: 0;
+}
+
+.directions__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.directions__item {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.directions__item p {
+  margin: 0;
+  background-color: #444444;
+}
+
+/*Compensation*/
+
+.compensation h2 {
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 56px;
+  text-align: center;
+  margin: 0;
+}
+
+.compensation__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.compensation__item {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.compensation__item p {
+  margin: 0;
+}
+
+/*Motivation*/
+
+.compensation-motivation {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: center;
+}
+
+.compensation-motivation span {
+  color: #B01736;
+}
+
+.compensation-motivation__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.compensation-motivation__item p{
+  margin: 0;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+/*Slider*/
+
+.slider h2 {
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 56px;
+  margin: 0;
+}
