@@ -131,6 +131,7 @@ body {
 
 .info-wrapper {
   box-shadow: 0px 0px 32px 0px #00000014;
+  margin-bottom: 100px;
 }
 
 .info__desc {
@@ -151,16 +152,18 @@ body {
 /*Statistics*/
 
 .statistics {
-  border: 2px solid red;
+  /*border: 2px solid red;*/
 }
 
 .statistics__list {
-  width: 889px;
+  width: 1000px;
   list-style: none;
   margin: 0 auto;
   padding: 0;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
+  /*border: 2px solid rgb(39, 219, 36);*/
 }
 .statistics__item span{
   font-size: 60px;
@@ -170,23 +173,36 @@ body {
 }
 
 .statistics__item {
-  width: 272px;
-  margin-right: 30px;
-  /*display: flex;
-  flex-direction: column;*/
-  /*align-items: center;*/
-  /*justify-content: flex-start;*/
-  border: 2px solid black;
+  min-width: 296px;
+  margin-right: 36px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*background-color: #ede2e2;*/
 }
 
 .statistics__item:nth-child(3) {
   margin-right: 0;
 }
 
+.statistics__item-box {
+  min-height: 112px;
+  display: flex;
+  flex-direction: column;
+  /*border: 2px solid red;*/
+}
+
 .statistics__item p {
   font-size: 18px;
   line-height: 27px;
   margin: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.statistics__item span {
+  /*display: flex;*/
 }
 
 /*Map*/
