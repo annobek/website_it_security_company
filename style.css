@@ -272,7 +272,8 @@ body {
   background-color: #A30C33;
   background-image: url("/img/left-pattern.svg"),
   url("/img/right-pattern.svg");
-  background-position: 0px 50%, 953px 50%;
+  /*background-position: 0px 50%, 953px 50%;*/
+  background-position: left, right;
   background-repeat: no-repeat;
   margin-bottom: 100px;
 }
